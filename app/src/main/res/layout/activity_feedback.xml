@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F0F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header image -->
+        <ImageView
+            android:id="@+id/headerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            android:contentDescription="Zoo Feedback Banner"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_corners" />
+
+        <!-- Feedback Card -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card_bg"
+            android:padding="20dp"
+            android:elevation="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:text="Share Your Experience"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="center" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:hint="Your Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:hint="Your Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginTop="12dp"
+                android:padding="12dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:hint="Write your feedback..."
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="top"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:layout_marginTop="12dp"
+                android:padding="12dp"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:text="Rate your experience"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:layout_marginTop="4dp" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:text="Submit Feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#3F51B5"
+                android:textColor="#FFF"
+                android:textAllCaps="false"
+                android:elevation="2dp"
+                android:padding="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

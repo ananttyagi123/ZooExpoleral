@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/categoryLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@android:color/holo_blue_light">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_category"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnMammals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mammals"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnBirds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/birds"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnReptiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reptiles"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btnAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_animals"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:padding="12dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+        <!-- Quiz Section -->
+        <LinearLayout
+            android:id="@+id/quizLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_template"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/questionCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_counter_template"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/questionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question_placeholder"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/optionButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option1"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/optionButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option2"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/optionButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option3"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/optionButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/option4"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/holo_red_light"
+                android:textColor="@android:color/white"
+                android:padding="12dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="16dp">
+
+                    <Button
+                        android:id="@+id/prevButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/previous"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:backgroundTint="@android:color/holo_purple"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="16dp"/>
+
+                    <Button
+                        android:id="@+id/nextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/next"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

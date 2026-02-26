@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+        <string name="app_name">चिड़ियाघर अन्वेषक</string>
+        <string name="welcome_to_the_jungle">जंगल में आपका स्वागत है!</string>
+        <string name="play_animal_sound_game">🎵 जानवरों की आवाज़ खेलें</string>
+        <string name="quick_guess">त्वरित अनुमान</string>
+        <string name="ar_snapshot">एआर स्नैपशॉट</string>
+        <string name="zoo_chatbot">चिड़ियाघर चैटबॉट</string>
+        <string name="event_name">कार्यक्रम का नाम</string>
+        <string name="event_time">कार्यक्रम का समय</string>
+        <string name="discover">🔍 खोजें</string>
+        <string name="fun_fact_of_the_day">🧠 आज का रोचक तथ्य</string>
+        <string name="Elephants_can_recognize_themselves_in_mirrors">हाथी खुद को दर्पण में पहचान सकते हैं!</string>
+        <string name="plan_your_visit">📅 अपनी यात्रा की योजना बनाएं</string>
+
+
+    <string name="open">नेविगेशन ड्रॉअर खोलें</string>
+    <string name="close">नेविगेशन ड्रॉअर बंद करें</string>
+
+    <string name="settings">सेटिंग्स</string>
+
+    <string name="preferences">पसंद</string>
+    <string name="enable_notifications">सूचनाएँ सक्षम करें</string>
+    <string name="dark_mode">डार्क मोड</string>
+
+    <!-- About Section -->
+    <string name="about_title">ज़ू एक्सप्लोरर के बारे में</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">भाषा चुनें</string>
+    <string name="language_english">अंग्रेज़ी</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="change_language_prompt">अपनी पसंदीदा भाषा चुनें</string>
+    <string name="language_selected">भाषा सफलतापूर्वक बदली गई</string>
+
+    <!-- Delete Account -->
+    <string name="delete_account">खाता हटाएं</string>
+    <string name="delete_account_confirmation">क्या आप वाकई अपना खाता हटाना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+
+
+
+    <string name="choose_category">श्रेणी चुनें</string>
+    <string name="mammals">स्तनधारी</string>
+    <string name="birds">पक्षी</string>
+    <string name="reptiles">सरीसृप</string>
+    <string name="all_animals">सभी जानवर</string>
+
+    <string name="score_template">स्कोर: 0</string>
+    <string name="question_counter_template">प्रश्न: 1/10</string>
+    <string name="question_placeholder">प्रश्न यहाँ दिखाई देगा</string>
+
+    <string name="option1">विकल्प 1</string>
+    <string name="option2">विकल्प 2</string>
+    <string name="option3">विकल्प 3</string>
+    <string name="option4">विकल्प 4</string>
+
+    <string name="previous">पिछला</string>
+    <string name="next">अगला</string>
+
+
+
+
+        <string name="q_king_of_jungle">जंगल का राजा कौन है?</string>
+        <string name="opt_lion">शेर</string>
+        <string name="opt_tiger">बाघ</string>
+        <string name="opt_elephant">हाथी</string>
+        <string name="opt_leopard">तेंदुआ</string>
+
+        <string name="q_mammal_lays_eggs">कौन सा स्तनधारी अंडे देता है?</string>
+        <string name="opt_platypus">प्लैटिपस</string>
+        <string name="opt_kangaroo">कंगारू</string>
+        <string name="opt_whale">व्हेल</string>
+        <string name="opt_cat">बिल्ली</string>
+
+        <string name="q_largest_land_animal">सबसे बड़ा भूमि जानवर कौन सा है?</string>
+        <string name="opt_rhino">गैंडा</string>
+        <string name="opt_giraffe">जिराफ़</string>
+        <string name="opt_buffalo">भैंस</string>
+
+        <string name="q_powerful_bite">किसके पास सबसे शक्तिशाली काटने की ताकत है?</string>
+        <string name="opt_hyena">हाइना</string>
+
+        <string name="opt_hippopotamus">दरियाई घोड़ा</string>
+
+        <string name="q_echolocation">किसे इकोलोकेशन की क्षमता है?</string>
+        <string name="opt_dog">कुत्ता</string>
+        <string name="opt_bat">चमगादड़</string>
+        <string name="opt_horse">घोड़ा</string>
+
+        <string name="q_fastest_mammal">सबसे तेज़ स्तनधारी कौन है?</string>
+
+        <string name="opt_cheetah">चीता</string>
+        <string name="opt_deer">हिरण</string>
+
+        <string name="q_group_lions">शेरों का समूह क्या कहलाता है?</string>
+        <string name="opt_pack">झुंड</string>
+        <string name="opt_pride">गौरव</string>
+        <string name="opt_herd">गुच्छा</string>
+        <string name="opt_swarm">स्वार्म</string>
+
+        <string name="q_longest_gestation">किसे सबसे लंबा गर्भकाल होता है?</string>
+
+        <string name="opt_camel">ऊंट</string>
+
+        <!-- Birds -->
+        <string name="q_bird_mimic_speech">कौन सा पक्षी बोली की नकल करता है?</string>
+        <string name="opt_parrot">तोता</string>
+        <string name="opt_sparrow">गोरीया</string>
+        <string name="opt_crow">कौआ</string>
+        <string name="opt_eagle">गिद्ध</string>
+
+        <string name="q_fastest_flying_bird">सबसे तेज़ उड़ने वाला पक्षी कौन है?</string>
+        <string name="opt_falcon">बाज</string>
+        <string name="opt_hawk">गिधा</string>
+        <string name="opt_vulture">गिद्ध</string>
+
+        <string name="q_tail_feathers">किस पक्षी के पास सबसे सुंदर पूंछ के पंख होते हैं?</string>
+        <string name="opt_peacock">मोर</string>
+        <string name="opt_flamingo">फ्लामिंगो</string>
+        <string name="opt_ostrich">शुतुरमुर्ग</string>
+        <string name="opt_duck">बतख</string>
+
+        <string name="q_largest_egg">किस पक्षी का अंडा सबसे बड़ा होता है?</string>
+        <string name="opt_penguin">पेंगुइन</string>
+        <string name="opt_emu">एमू</string>
+
+        <string name="q_group_owls">बत्तखों का समूह क्या कहलाता है?</string>
+        <string name="opt_parliament">संसद</string>
+        <string name="opt_flock">झुंड</string>
+        <string name="opt_mob">भीड़</string>
+
+        <string name="q_bird_cannot_fly">कौन सा पक्षी उड़ नहीं सकता?</string>
+
+        <string name="opt_swan">हंस</string>
+
+        <string name="q_national_bird_india">भारत का राष्ट्रीय पक्षी कौन सा है?</string>
+
+        <string name="opt_kingfisher">मछली पकड़ने वाला पक्षी</string>
+
+        <!-- Reptiles -->
+        <string name="q_shell_reptile">किस सरीसृप के पास खोल होता है?</string>
+        <string name="opt_snake">सांप</string>
+        <string name="opt_lizard">गेको</string>
+        <string name="opt_turtle">कछुआ</string>
+        <string name="opt_crocodile">मगरमच्छ</string>
+
+        <string name="q_color_change_reptile">किस सरीसृप का रंग बदलता है?</string>
+        <string name="opt_gecko">गेको</string>
+        <string name="opt_chameleon">गिरगिट</string>
+        <string name="opt_iguana">इगुआना</string>
+
+        <string name="q_largest_reptile">कौन सा सरीसृप सबसे बड़ा है?</string>
+        <string name="opt_komodo">कोमोडो</string>
+        <string name="opt_alligator">आलिगेटर</string>
+        <string name="opt_anaconda">एनाकोंडा</string>
+
+        <string name="q_tail_detach">किस सरीसृप की पूंछ अलग हो जाती है?</string>
+
+        <string name="opt_tortoise">कछुआ</string>
+
+        <string name="q_most_venomous_snake">सबसे विषैला सांप कौन सा है?</string>
+        <string name="opt_cobra">कोबरा</string>
+        <string name="opt_viper">वाइपर</string>
+        <string name="opt_black_mamba">ब्लैक मंबा</string>
+        <string name="opt_inland_taipan">इनलैंड ताइपन</string>
+
+        <string name="q_sea_turtle_eggs">समुद्र कछुए के अंडे कहाँ मिलते हैं?</string>
+        <string name="opt_water">पानी</string>
+        <string name="opt_land">भूमि</string>
+        <string name="opt_coral">कोरल</string>
+        <string name="opt_rocks">चट्टानें</string>
+
+        <!-- All -->
+        <string name="q_largest_animal">सबसे बड़ा जानवर कौन सा है?</string>
+        <string name="opt_blue_whale">नीली व्हेल</string>
+        <string name="opt_shark">शार्क</string>
+
+        <string name="q_black_white_stripes">किसके शरीर पर काले और सफेद धारी होती हैं?</string>
+        <string name="opt_zebra">जेबरा</string>
+        <string name="opt_panda">पांडा</string>
+        <string name="opt_skunk">स्कंके</string>
+
+        <string name="q_tallest_animal">सबसे लंबा जानवर कौन सा है?</string>
+
+
+        <string name="q_play_dead">कौन सा जानवर मरने का नाटक करता है?</string>
+        <string name="opt_fox">लोमड़ी</string>
+        <string name="opt_opossum">ऑपोसम</string>
+        <string name="opt_raccoon">रैकून</string>
+
+        <string name="q_sleep_standing">कौन सा जानवर खड़े होकर सोता है?</string>
+
+
+        <string name="q_no_teeth">किसके पास दांत नहीं होते हैं?</string>
+
+        <string name="opt_ant_eater">चींटी खाने वाला</string>
+
+        <string name="q_blue_blood">किसके खून का रंग नीला होता है?</string>
+        <string name="opt_octopus">ऑक्टोपस</string>
+        <string name="opt_frog">मेंढक</string>
+        <string name="opt_crab">केकड़ा</string>
+
+        <string name="q_fingerprint">किसके पास उंगलियों के निशान होते हैं?</string>
+        <string name="opt_monkey">बंदर</string>
+        <string name="opt_koala">कोआला</string>
+        <string name="opt_bear">भालू</string>
+
+    <string name="opt_pigeon">कबूतर</string>
+
+</resources>

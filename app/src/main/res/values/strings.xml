@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+
+
+    <string name="app_name">ZooExplorer</string>
+    <string name="welcome_to_the_jungle">Welcome to the Jungle!</string>
+    <string name="play_animal_sound_game">🎵 Play Animal Sound Game</string>
+    <string name="quick_guess">Quick Guess</string>
+    <string name="ar_snapshot">AR Snapshot</string>
+    <string name="zoo_chatbot">Zoo ChatBot</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_time">Event Time</string>
+    <string name="discover">🔍 Discover</string>
+    <string name="fun_fact_of_the_day">🧠 Fun Fact of the Day</string>
+    <string name="Elephants_can_recognize_themselves_in_mirrors">Elephants can recognize themselves in mirrors!</string>
+    <string name="plan_your_visit">📅 Plan Your Visit</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <!-- About Section -->
+    <string name="about_title">About ZooExplorer</string>
+
+    <!-- Language Selection -->
+    <string name="select_language">Select Language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="change_language_prompt">Choose your preferred language</string>
+    <string name="language_selected">Language changed successfully</string>
+
+    <!-- Delete Account -->
+    <string name="delete_account">Delete Account</string>
+    <string name="delete_account_confirmation">Are you sure you want to delete your account?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="choose_category">Choose a Category</string>
+    <string name="mammals">Mammals</string>
+    <string name="birds">Birds</string>
+    <string name="reptiles">Reptiles</string>
+    <string name="all_animals">All Animals</string>
+
+    <string name="score_template">Score: 0</string>
+    <string name="question_counter_template">Question: 1/10</string>
+    <string name="question_placeholder">Question will appear here</string>
+
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+
+    <string name="q_king_of_jungle">Who is known as the King of the Jungle?</string>
+
+    <string name="q_mammal_lays_eggs">Which mammal lays eggs?</string>
+    <string name="opt_platypus">Platypus</string>
+
+    <string name="q_largest_land_animal">Which is the largest land animal?</string>
+    <string name="opt_rhino">Rhino</string>
+    <string name="opt_buffalo">Buffalo</string>
+
+    <string name="q_powerful_bite">Which animal has the most powerful bite?</string>
+    <string name="opt_hyena">Hyena</string>
+    <string name="opt_lion">Lion</string>
+    <string name="opt_hippopotamus">Hippopotamus</string>
+
+    <string name="q_echolocation">Which animal uses echolocation?</string>
+
+    <string name="q_fastest_mammal">Which is the fastest mammal?</string>
+    <string name="opt_tiger">Tiger</string>
+    <string name="opt_leopard">Leopard</string>
+    <string name="opt_cheetah">Cheetah</string>
+    <string name="opt_deer">Deer</string>
+
+    <string name="q_group_lions">What is the group of lions called?</string>
+    <string name="opt_pack">Pack</string>
+    <string name="opt_pride">Pride</string>
+    <string name="opt_herd">Herd</string>
+    <string name="opt_swarm">Swarm</string>
+
+    <string name="q_longest_gestation">Which mammal has the longest gestation period?</string>
+    <string name="opt_whale">Whale</string>
+    <string name="opt_giraffe">Giraffe</string>
+    <string name="opt_camel">Camel</string>
+
+
+    <string name="q_bird_mimic_speech">Which bird can mimic human speech?</string>
+    <string name="opt_parrot">Parrot</string>
+    <string name="opt_sparrow">Sparrow</string>
+    <string name="opt_crow">Crow</string>
+    <string name="opt_eagle">Eagle</string>
+
+    <string name="q_fastest_flying_bird">Which bird is the fastest flyer?</string>
+    <string name="opt_falcon">Falcon</string>
+    <string name="opt_hawk">Hawk</string>
+    <string name="opt_vulture">Vulture</string>
+
+    <string name="q_tail_feathers">Which bird is known for its tail feathers?</string>
+    <string name="opt_peacock">Peacock</string>
+    <string name="opt_flamingo">Flamingo</string>
+    <string name="opt_ostrich">Ostrich</string>
+    <string name="opt_duck">Duck</string>
+
+    <string name="q_largest_egg">Which bird lays the largest egg?</string>
+    <string name="opt_penguin">Penguin</string>
+    <string name="opt_emu">Emu</string>
+
+
+    <string name="q_group_owls">What is the group of owls called?</string>
+    <string name="opt_parliament">Parliament</string>
+    <string name="opt_flock">Flock</string>
+
+    <string name="opt_mob">Mob</string>
+
+    <string name="q_bird_cannot_fly">Which bird cannot fly?</string>
+
+    <string name="opt_swan">Swan</string>
+
+    <string name="q_national_bird_india">What is the national bird of India?</string>
+
+    <string name="opt_kingfisher">Kingfisher</string>
+
+    <!-- Reptiles -->
+    <string name="q_shell_reptile">Which reptile has a shell?</string>
+    <string name="opt_snake">Snake</string>
+    <string name="opt_lizard">Lizard</string>
+    <string name="opt_turtle">Turtle</string>
+    <string name="opt_crocodile">Crocodile</string>
+
+    <string name="q_color_change_reptile">Which reptile can change color?</string>
+    <string name="opt_gecko">Gecko</string>
+    <string name="opt_chameleon">Chameleon</string>
+    <string name="opt_iguana">Iguana</string>
+
+    <string name="q_largest_reptile">Which is the largest reptile?</string>
+    <string name="opt_komodo">Komodo Dragon</string>
+    <string name="opt_alligator">Alligator</string>
+    <string name="opt_anaconda">Anaconda</string>
+
+    <string name="q_tail_detach">Which reptile can detach its tail?</string>
+
+    <string name="opt_tortoise">Tortoise</string>
+
+    <string name="q_most_venomous_snake">Which is the most venomous snake?</string>
+    <string name="opt_cobra">Cobra</string>
+    <string name="opt_viper">Viper</string>
+    <string name="opt_black_mamba">Black Mamba</string>
+    <string name="opt_inland_taipan">Inland Taipan</string>
+
+    <string name="q_sea_turtle_eggs">Where do sea turtles lay their eggs?</string>
+    <string name="opt_water">Water</string>
+    <string name="opt_land">Land</string>
+    <string name="opt_coral">Coral</string>
+    <string name="opt_rocks">Rocks</string>
+
+    <!-- All -->
+    <string name="q_largest_animal">Which is the largest animal?</string>
+    <string name="opt_blue_whale">Blue Whale</string>
+    <string name="opt_shark">Shark</string>
+
+    <string name="q_black_white_stripes">Which animal has black and white stripes?</string>
+    <string name="opt_zebra">Zebra</string>
+    <string name="opt_panda">Panda</string>
+    <string name="opt_skunk">Skunk</string>
+
+    <string name="q_tallest_animal">Which is the tallest animal?</string>
+    <string name="opt_elephant">Elephant</string>
+    <string name="opt_horse">Horse</string>
+    <string name="opt_kangaroo">Kangaroo</string>
+
+    <string name="q_play_dead">Which animal is known to play dead?</string>
+    <string name="opt_fox">Fox</string>
+    <string name="opt_opossum">Opossum</string>
+    <string name="opt_raccoon">Raccoon</string>
+    <string name="opt_bat">Bat</string>
+
+    <string name="q_sleep_standing">Which animal sleeps while standing?</string>
+
+
+    <string name="opt_dog">Dog</string>
+
+    <string name="q_no_teeth">Which animal has no teeth?</string>
+    <string name="opt_ant_eater">Ant Eater</string>
+
+    <string name="q_blue_blood">Which animal has blue blood?</string>
+    <string name="opt_octopus">Octopus</string>
+    <string name="opt_frog">Frog</string>
+    <string name="opt_crab">Crab</string>
+
+    <string name="q_fingerprint">Which animal has fingerprints?</string>
+    <string name="opt_monkey">Monkey</string>
+    <string name="opt_koala">Koala</string>
+    <string name="opt_cat">Cat</string>
+    <string name="opt_bear">Bear</string>
+
+    <string name="opt_pigeon">Pigeon</string>
+
+</resources>
+
+

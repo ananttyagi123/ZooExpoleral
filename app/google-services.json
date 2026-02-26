@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478974557923",
+    "project_id": "zooexpoleral",
+    "storage_bucket": "zooexpoleral.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478974557923:android:74fac80b4627cebfaa8fd6",
+        "android_client_info": {
+          "package_name": "com.example.zooexpoleral"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZyIZQRCpEbi9p2vz8ZlqkM7jpb4_M0I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

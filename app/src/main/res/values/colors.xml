@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFC00000</color>
+    <color name="Pink">#FF6200EE</color>
+    <color name="teal_700">#FF03DAC5</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="backgroundGradient">#FF03DAC5</color>
+    <color name="textGradient">#FF6200EE</color>
+    <color name="colorPrimary">#FF03DAC5</color>
+    <color name="gray">#FF888888</color>
+
+
+
+
+    <color name="colorPrimaryDark">#2E7D32</color>
+    <color name="colorAccent">#66BB6A</color>
+
+
+    <color name="dark_gray">#555555</color>
+    <color name="deep_orange">#FF7043</color>
+
+    <color name="backgroundLight">#F9F9F9</color>
+    <color name="cardBackground">#FFFFFF</color>
+
+    <color name="textPrimary">#2C2C2C</color>
+    <color name="textSecondary">#444444</color>
+    <color name="textHighlight">#4CAF50</color>
+
+
+    <color name="tabBackground">#A5D6A7</color>
+    <color name="tabSelected">#000000</color>
+    <color name="tabUnselected">#FFFFFF</color>
+
+    <color name="funFactText">#333333</color>
+
+    <color name="overlayBlack">#80000000</color>
+
+</resources>

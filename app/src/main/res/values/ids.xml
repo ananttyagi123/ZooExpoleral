@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnSelectDate" type="id" />
+    <item name="tvSelectedDate" type="id" />
+    <item name="btnSelectTime" type="id" />
+    <item name="tvSelectedTime" type="id" />
+</resources>

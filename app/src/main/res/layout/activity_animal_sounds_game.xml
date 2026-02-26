@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Score Display -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"/>
+
+    <!-- Play Sound Button -->
+    <Button
+        android:id="@+id/playRandomSoundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Animal Sound"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white"/>
+
+    <!-- Answer Buttons Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <!-- Answer Button 1 -->
+        <Button
+            android:id="@+id/answerButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"/>
+
+        <!-- Answer Button 2 -->
+        <Button
+            android:id="@+id/answerButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"/>
+
+        <!-- Answer Button 3 -->
+        <Button
+            android:id="@+id/answerButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <!-- Leaderboard Button -->
+    <Button
+        android:id="@+id/viewLeaderboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Leaderboard"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
